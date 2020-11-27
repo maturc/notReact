@@ -3,7 +3,7 @@ The code in this repository is for my [dev.to article](https://dev.to/maturc/rec
 
 The file `notReact.ts` contains all of the rendering and state handeling logic, everything else is just an example of a simple counter application.
 
-The finished counter component looks like this:
+## The finished counter component looks like this:
 ```tsx
 import * as elements from 'typed-html';
 import { notReact } from '../notReact';
