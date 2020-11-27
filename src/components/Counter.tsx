@@ -9,15 +9,15 @@ const Counter = () => {
   }
   notReact.addOnClick("increaseCount", increaseCounter);
   
-  let isHigherThan10: string;
+  let isHigherThan5: string;
   notReact.useEffect(()=>{
-    isHigherThan10 =  count > 5 ? "Yes" : "No";
-  }, [count, isHigherThan10]);
+    isHigherThan5 =  count > 5 ? "Yes" : "No";
+  }, [count, isHigherThan5]);
   return (
     <div>
       <h1>Counter: {count}</h1>
       <button id="increaseCount">Increase count</button>
-      <p>Is the count higher than 5? <strong>{isHigherThan10}!</strong></p>
+      <p>Is the count higher than 5? <strong>{isHigherThan5}!</strong></p>
     </div>
   );
 }
