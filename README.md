@@ -1,5 +1,5 @@
 # notReact
-The code in this repository is for my [dev.to article](https://dev.to/maturc/recreating-the-react-workflow-in-vanilla-javascript-1pl2-temp-slug-2227208) about recreating React in vanilla JavaScript in order to achive a similar worflow.
+The code in this repository is for my [dev.to article](https://dev.to/maturc/recreating-the-react-workflow-in-vanilla-javascript-449c) about recreating React in vanilla JavaScript in order to achive a similar worflow.
 
 The file `notReact.ts` contains all of the rendering and state handeling logic, everything else is just an example of a simple counter application.
 
